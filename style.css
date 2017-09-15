@@ -1,0 +1,34 @@
+body {
+  background-color: #F0F0F0;
+}
+
+#container-diagram {
+  height: 300px;
+  background-color: #293762;
+}
+
+.sensor {
+  width: 80px;
+  height: 30px;
+  background-color: #D2DA00;
+  text-align: center;
+}
+
+.vertical-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vertical {
+  transform: rotate(1deg);
+}
+
+.vertical-sensor span {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.water-tank {
+  height: 100px;
+}

@@ -9,17 +9,39 @@
   </head>
   <body>
     <div class="container">
+
       <div class="row justify-content-sm-center">
-        <div class="sensor"><span>Sensor 1</span></div>
+          <div>
+            <div class="container-metrics">
+                <p>ID: test</p>
+                <p>Pressure: test</p>
+                <p>Flow: test</p>
+                <p>Lat: test</p>
+                <p>Alt: test</p>
+                <p>Time sent: test</p>
+            </div>
+            <div class="sensor sensor-top"><span>Sensor 1</span></div>
+          </div>
       </div>
+
       <div class="row no-gutters justify-content-sm-center">
         <div class="col-sm-2 vertical-parent" ><img class="water-tank" src="assets/water-tank.png" /></div>
         <div class="col-sm-6" id="container-diagram"></div>
-        <div class="col-sm-2 vertical-parent"><div class="sensor vertical"><span>Sensor 2</span></div></div>
+        <div class="col-sm-1 vertical-parent">
+          <div class="sensor vertical"><span>Sensor 2</span></div>
+        </div>
+        <div class="col-sm-1 vertical-parent">
+          <div class="container-metrics container-metrics-right"></div>
+        </div>
       </div>
+
       <div class="row justify-content-sm-center">
-        <div class="sensor"><span>Sensor 3</span></div>
+        <div>
+          <div class="sensor sensor-bottom"><span>Sensor 3</span></div>
+          <div class="container-metrics"></div>
+        </div>
       </div>
+
     </div>
   </body>
 </html>

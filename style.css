@@ -1,17 +1,48 @@
 body {
-  background-color: #F0F0F0;
+  background-color: #F5F9FA;
 }
 
 #container-diagram {
-  height: 300px;
-  background-color: #293762;
+  height: 230px;
+  border-color: #4063A8;
+  border-style: solid;
+  background-color: #8A9EC4;
+
+}
+
+.container-metrics {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: green;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.container-metrics-right {
+  margin-left: -50px;
 }
 
 .sensor {
   width: 80px;
   height: 30px;
-  background-color: #D2DA00;
+  background-color: #FFFFDC;
   text-align: center;
+  border-style: solid;
+  border-color: #E4E943;
+}
+
+.sensor-top {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.sensor-bottom {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.sensor span {
+  font-weight: bold;
 }
 
 .vertical-parent {
@@ -21,12 +52,10 @@ body {
 }
 
 .vertical {
-  transform: rotate(1deg);
-}
-
-.vertical-sensor span {
   transform: rotate(90deg);
-  -webkit-transform: rotate(-90deg);
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin-y: top;
+  -webkit-transform-origin-x: 30px;
 }
 
 .water-tank {

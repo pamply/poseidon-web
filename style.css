@@ -2,20 +2,56 @@ body {
   background-color: #F5F9FA;
 }
 
+.title {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 #container-diagram {
   height: 230px;
   border-color: #4063A8;
   border-style: solid;
   background-color: #8A9EC4;
-
+  border-radius: 10px;
 }
 
 .container-metrics {
-  width: 150px;
-  height: 150px;
+  background-color: #C0F3CE;
+  min-width: 150px;
+  max-width: auto;
+  min-height: 150px;
+  max-height: auto;
   border-style: solid;
   border-color: green;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container-metrics ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.key-metric {
+  font-weight: bold;
+  font-size: small;
+}
+
+.value-metric {
+  font-size: small;
+}
+
+.table {
+  display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 1px;
 }
 
 .container-metrics-right {
@@ -25,10 +61,10 @@ body {
 .sensor {
   width: 80px;
   height: 30px;
-  background-color: #FFFFDC;
+  background-color: #FF9F9F;
   text-align: center;
   border-style: solid;
-  border-color: #E4E943;
+  border-color: #CA2C2C;
 }
 
 .sensor-top {

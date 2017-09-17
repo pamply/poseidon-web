@@ -27,4 +27,4 @@ update = (bundler, dest) ->
     .on('error', (args...) -> console.log("Error: #{args}"))
     .pipe(source('index.js'))
     .pipe(gulp.dest(dest))
-  #require('./client.coffee')
+  require('./server.coffee')
